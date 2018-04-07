@@ -1,0 +1,20 @@
+.Container {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 180px 12px;
+}
+
+.Header {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.Content {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+

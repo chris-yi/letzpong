@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./MainContent.css";
 import Aux from "../../../hoc/Aux";
-import Button from "../../Button/Button";
+import Button from "../../UI/Button/Button";
 
 const mainContent = () => (
   <Aux>

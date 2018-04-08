@@ -12,10 +12,12 @@ const dropdownDrawer = props => {
 
   return (
     <Aux>
-      <Backdrop show={props.open} clicked={props.closed}/>
+      <Backdrop show={props.open} clicked={props.closed} />
       <div className={attachedClasses.join(" ")}>
-        <div>Hello</div>
-        <div onClick={props.closed}>X</div>
+        <div className={classes.DropdownHeader}>
+          <div className={classes.Logo}>LetzPong</div>
+          <div className={classes.CloseButton} onClick={props.closed}><i className="fa fa-times"></i></div>
+        </div>
       </div>
     </Aux>
   );

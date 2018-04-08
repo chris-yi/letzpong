@@ -9,6 +9,11 @@
     transition: transform 0.2s ease-out;
 }
 
+.DropdownHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (min-width: 500px) {
     .DropdownDrawer {
       display: none;
@@ -26,4 +31,15 @@
   .Logo {
       height: 11%;
       margin-bottom: 32px;
+      font-family: 'Hi Melody', cursive;
+      font-size: 30px;
+      color: #ffffff;
+  }
+
+
+  .CloseButton {
+    height: 11%;
+    /* font-family: 'Hi Melody', cursive; */
+    font-size: 30px;
+    color: #ffffff;
   }

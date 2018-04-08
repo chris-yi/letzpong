@@ -9,6 +9,10 @@
     transition: transform 0.2s ease-out;
 }
 
+.DropdownShadow {
+    box-shadow: 0 0 20px #464646;
+}
+
 .DropdownHeader {
     display: flex;
     justify-content: space-between;

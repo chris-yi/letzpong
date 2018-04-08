@@ -7,7 +7,7 @@ const dropdownDrawer = props => {
   let attachedClasses = [classes.DropdownDrawer, classes.Close];
 
   if (props.open) {
-    attachedClasses = [classes.DropdownDrawer, classes.Open];
+    attachedClasses = [classes.DropdownDrawer, classes.Open, classes.DropdownShadow];
   }
 
   return (
